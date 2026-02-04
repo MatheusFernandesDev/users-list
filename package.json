@@ -1,6 +1,7 @@
 {
   "name": "sensedia-user-list",
   "version": "1.0.0",
+  "type": "module",
   "description": "Aplicação SPA para listagem de usuários - Teste Técnico Sensedia",
   "scripts": {
     "dev": "rsbuild dev",
