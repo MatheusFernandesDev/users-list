@@ -4,13 +4,12 @@ import { pluginReact } from '@rsbuild/plugin-react';
 export default defineConfig({
   plugins: [pluginReact()],
   html: {
-    title: 'Sensedia - Lista de Usuários',
+    template: './public/index.html',
     favicon: './public/favicon.ico',
   },
-  output: {
-    assetPrefix: '/',
-  },
-  server: {
-    port: 3000,
+  source: {
+    entry: {
+      index: './src/index.tsx'
+    },
   },
 });
