@@ -397,8 +397,8 @@ sensedia-user-list/
 
 1. **Clone o repositório**
 ```bash
-git clone https://github.com/seu-usuario/sensedia-user-list.git
-cd sensedia-user-list
+https://github.com/MatheusFernandesDev/users-list
+cd users-list
 ```
 
 2. **Instale as dependências**
