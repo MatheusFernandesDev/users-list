@@ -4,12 +4,15 @@ import { pluginReact } from '@rsbuild/plugin-react';
 export default defineConfig({
   plugins: [pluginReact()],
   html: {
-    template: './public/index.html',
-    favicon: './public/favicon.ico',
+    title: 'Lista de Usuários',
   },
-  source: {
-    entry: {
-      index: './src/index.tsx'
+  output: {
+    assetPrefix: '/',
+    distPath: {
+      root: 'dist',
     },
+  },
+  server: {
+    port: 3000,
   },
 });
