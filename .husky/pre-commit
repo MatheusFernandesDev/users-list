@@ -1,5 +1,4 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-# Primeiro verifica tipagem, se falhar o commit cancela
-npm run type-check && npm test
+npm run type-check && npx vitest run
